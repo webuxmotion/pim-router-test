@@ -2,12 +2,12 @@
 
 class NewsController {
 
-  public function __construct() {
-
+  public function showList() {
+    echo 'some json';
   }
 
-  public function showList($params) {
-    echo 'list';
+  public function showOne($id) {
+    echo 'New id: ' . $id;
   }
 }
 ?>

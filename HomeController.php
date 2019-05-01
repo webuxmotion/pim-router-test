@@ -3,7 +3,7 @@
 class HomeController {
 
   public function index() {
-    echo 'Index';
+    echo 'Index Page!';
   }
 }
 ?>
